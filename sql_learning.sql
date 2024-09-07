@@ -12,3 +12,5 @@ INSERT INTO learning_dba.public.customers (customer_id, first_name, last_name, a
 VALUES (122, 'Chinedu', 'Bright', '12, parkview, Ikoyi, Lagos, Nigeria', '2023-08-20'),
 (132, 'Daniel', 'Achibong', '5, Glover Road, Lekki, Lagos, Nigeria', '2023-08-22'),
 (142, 'Segun', 'Wire Wire', '34, Allen road, Ikeja, Lagos, Nigeria', '2023-08-23')
+
+select * from customers where name = 'John'
